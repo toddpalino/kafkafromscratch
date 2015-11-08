@@ -1,0 +1,24 @@
+Included here are the slides that will be used for the tutorial, in three
+formats:
+	* Powerpoint (PPTX)
+	* PDF Color
+	* PDF Grayscale (Handout - 2 slides per page)
+
+In addition, there are two scripts that are used in the tutorial:
+	* python-producer.py
+	* python-consumer.py
+
+As a bonus, there are two items which are not really part of the tutorial,
+but which you should find useful:
+	* kafka_ch02.pdf
+	  This is a VERY early draft of a book chapter on how to install
+	  Kafka, as well as hardware selection, tuning, configuration, and
+	  production concerns
+
+	* kafka-assigner.py
+	  This is a script, written at LinkedIn, which can be used for managing
+	  partition balance in a Kafka cluster, beyond what the basic Kafka
+	  tools can do. This includes easily adding and removing brokers from
+	  a cluster, as well as rebalancing partitions across a cluster.
+
+
